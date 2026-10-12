@@ -224,6 +224,7 @@ student={
 print(student)
 print(student["name"])
 
+'''
 info=dict(city="tvm",state="keralam")
 print(info)
 print(info.keys())
@@ -231,8 +232,8 @@ print(info.values())
 print(info["city"])
 student.pop("age")
 print(student)
-
-for key,value in student.items():
+'''
+'''for key,value in student.items():
     if key=="name":
         print(key,value)
 
@@ -251,4 +252,4 @@ employee={
     }
 
 }
-print(employee["emp1"]["age"])
+print(employee["emp1"]["age"])'''

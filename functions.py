@@ -147,6 +147,7 @@ people = [("Vysakh", 21), ("Rahul", 25), ("Arun", 19), ("Akhil", 23)]
 people.sort(key=lambda x: x[1])
 
 print(people)'''
+#**kwargs
 def student_info(**data):
      for key, value in data.items():
          print(key,":",value)
